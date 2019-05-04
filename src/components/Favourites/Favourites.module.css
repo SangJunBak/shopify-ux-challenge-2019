@@ -1,0 +1,24 @@
+.favouritesContainer {
+    composes: container from '../../App.module.css';
+    background-color: #F7FEFA;
+    flex: 1 0 auto;
+}
+
+.favouritesLayout {
+    composes: layout from '../../App.module.css';
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 23px;
+}
+
+.gridLayout {
+    composes: gridLayout from '../../App.module.css';
+    margin-bottom: 23px;
+}
+
+.favouritesTitle {
+    color: #23995C;
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+}

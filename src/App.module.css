@@ -1,0 +1,27 @@
+.appLayout {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/* Abstract Base Classes */
+.gridLayout {
+    display: grid;
+    grid-template-columns: auto 10px 306px 135px 1fr;
+    grid-row-gap: 42px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.layout {
+    padding: 0 19px 0 19px;
+    max-width: 1024px;
+    width: 100%;
+}

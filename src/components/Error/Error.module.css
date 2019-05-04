@@ -1,0 +1,23 @@
+.errorContainer {
+    display: flex;
+    flex: 1 0 auto;
+    margin-left: 18%;
+    align-items: center;
+}
+
+.errorLayout {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+}
+
+.errorTextLayout {
+    display: block;
+}
+
+.errorHeading {
+    margin-top: 0;
+}
+
+.errorBodyText {
+    color: #646161;
+}

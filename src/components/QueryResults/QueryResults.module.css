@@ -1,0 +1,52 @@
+.queryResultsContainer {
+    composes: container from '../../App.module.css';
+    background-color: white;
+    flex: 0 0 auto;
+}
+
+.queryResultsLayout {
+    composes: layout from '../../App.module.css';
+    padding-top: 23px;
+    padding-bottom: 23px;
+    max-width: 1024px;
+}
+
+.gridLayout {
+    composes: gridLayout from '../../App.module.css';
+    margin: 23px 0 23px 0;
+}
+
+.titleLayout {
+    font-size: 1.25rem;
+    letter-spacing: 0.01em;
+}
+
+.bodyLayout {
+    font-size: 1.18rem;
+    letter-spacing: 0.01em;
+}
+
+.bodyLayout ul {
+    margin: 0;
+}
+
+.bodyLayout li:not(:first-child) {
+    margin-top: 20px;
+}
+
+.starIcon {
+    cursor: pointer;
+    fill: #AAAAAA;
+    flex-shrink: 0;
+    height: 30px;
+    margin-top: -4px;
+    width: 30px;
+}
+
+.starIcon--active {
+    fill: #23995C;
+}
+
+.starIcon:hover {
+    fill: #23995C;
+}
