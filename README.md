@@ -1,6 +1,6 @@
-##About
+## About
 A web app to search for waste items using the Toronto Waste Wizard database, and save frequently used ones.
-#####[Live Demo](https://shopify-ux-challenge-2019.firebaseapp.com/)
+##### [Live Demo](https://shopify-ux-challenge-2019.firebaseapp.com/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
